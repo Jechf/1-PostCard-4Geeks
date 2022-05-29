@@ -1,0 +1,70 @@
+body {
+	padding-top: 150px;
+	background: black;
+}
+
+p {
+	font-size: 15px;
+}
+
+input {
+	border: 2px solid white;
+	border-bottom-color: grey !important;
+}
+
+button {
+	text-align: center;
+	background-color: grey;
+}
+
+/*----Clases----Clases----Clases----Clases----Clases----*/
+
+.postcard {
+	font-family: "Grape Nuts", cursive;
+	background: white;
+	height: 300px;
+	width: 400px;
+	margin: auto;
+}
+
+.postcard-header {
+	display: flex;
+}
+
+.postcard-body {
+	display: flex;
+	margin-bottom: 5px;
+}
+
+.body-left {
+	padding: 5px;
+}
+.body-right {
+	padding: 5px;
+}
+.postcard-footer {
+	text-align: center;
+	padding-bottom: 10px;
+}
+
+/*----IDENTIFICADORES----IDENTIFICADORES----IDENTIFICADORES----*/
+
+#titulo1 {
+	padding-top: 10px;
+	padding-left: 10px;
+	margin: 0px;
+	width: 340px;
+}
+
+#imagen {
+	width: 50px;
+	height: 50px;
+	margin: 5px;
+}
+
+/*----REFERENCIA----REFERENCIA----REFERENCIA----REFERENCIA*/
+
+/* * {
+	border: 1px dashed red;
+	min-height: 10px;
+}*/
